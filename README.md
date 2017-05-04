@@ -7,7 +7,7 @@ Hey, this is a website to raise more awarness about our clan in Clash Royale cal
 The only thing you need to be part of our community is:
 
 ```
-Clash Royale (App available in Android, on Google Playstore and in Apple, on AppStore.
+Clash Royale (App available in Android, on Google Playstore and in Apple, on AppStore.)
 ```
 
 ## Contributing and Contact
