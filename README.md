@@ -17,7 +17,7 @@ If you would like to join our clan, be part of our community or improve this web
 ## License
 
 All source code can be studied but it should not be re-used.
-This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
+This project falls under the *All Rights Reserved* and is Copyrighted.
 
 ## Final Note
 
