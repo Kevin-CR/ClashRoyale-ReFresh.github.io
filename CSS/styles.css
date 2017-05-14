@@ -1,0 +1,27 @@
+ul{
+	margin: 0;
+	display: inline;
+	padding: 0px 0px 0px 15px;
+}
+
+ul li{
+	background: white;
+	display: inline-block;
+	list-style-type: none;
+	padding: 6px 15px;
+	font-size: 20px;
+}
+
+#header-family {
+	padding-left: 80px;
+}
+
+#header-home {
+	padding-left: 25%
+}
+
+img {
+	height: 40px;
+	width: 63px;
+	position: absolute;
+}
