@@ -1,27 +1,56 @@
+* {
+	background-color: #EDEEF3;
+	padding: 0px;
+	margin: 0px;
+}
+
 ul{
 	margin: 0;
 	display: inline;
-	padding: 0px 0px 0px 15px;
+	padding: 30px 170px 25px 15px;
+	background-color: white;
 }
 
 ul li{
-	background: white;
+	background-color: white;
+
 	display: inline-block;
 	list-style-type: none;
-	padding: 6px 15px;
-	font-size: 20px;
+	padding: 22px 50px 0px 50px;
+	font-size: 17px;
+	font-family: 'Raleway', sans-serif;
 }
 
-#header-family {
-	padding-left: 80px;
+ul li a {
+	padding: 5px 11px;
+	border: 1.5px solid black;
+	text-decoration: none;
+	color: #101430;
+	background-color: white;
 }
 
 #header-home {
-	padding-left: 25%
+	padding-left: 15.5%;
 }
 
-img {
-	height: 40px;
-	width: 63px;
-	position: absolute;
+#header-about-us {
+	padding-right: 115px;
 }
+
+#RF-logo {
+	height: 55px;
+	width: 82px;
+	position: absolute;
+	padding-top: 7px;
+	background-color: white;
+}
+
+#header-family {
+	padding-left: 180px;
+}
+
+/* #header-contact-us {
+	position: absolute;
+} */ 
+
+/* IMPORTANT This could be needed when window is resized and contact goes down but first look at Meta phase thing */  
