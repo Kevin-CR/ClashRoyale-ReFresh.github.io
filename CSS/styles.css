@@ -13,7 +13,6 @@ ul{
 
 ul li{
 	background-color: white;
-
 	display: inline-block;
 	list-style-type: none;
 	padding: 22px 50px 0px 50px;
@@ -23,10 +22,13 @@ ul li{
 
 ul li a {
 	padding: 5px 11px;
-	border: 1.5px solid black;
 	text-decoration: none;
 	color: #101430;
 	background-color: white;
+}
+
+.active {
+	border: 2px black solid;
 }
 
 #header-home {
