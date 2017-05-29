@@ -1,4 +1,4 @@
-alert("The header is resposive but the rest of the website is just to check whether everything can be online properly!")
+// alert("The header is resposive but the rest of the website is just to check whether everything can be online!")
 
 $(document).ready(function(){
 

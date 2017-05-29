@@ -4,10 +4,12 @@
 	margin: 0px;
 }
 
+/* Header Stuff */
+
 ul{
 	margin: 0;
 	display: inline;
-	padding: 30px 170px 25px 15px;
+	padding: 27px 182px 22px 15px;
 	background-color: white;
 }
 
@@ -15,7 +17,7 @@ ul li{
 	background-color: white;
 	display: inline-block;
 	list-style-type: none;
-	padding: 22px 50px 0px 50px;
+	padding: 19px 50px 0px 50px;
 	font-size: 17px;
 	font-family: 'Raleway', sans-serif;
 }
@@ -25,7 +27,12 @@ ul li a {
 	text-decoration: none;
 	color: #101430;
 	background-color: white;
+	transition: 0.77s;
 }
+
+ul li a:hover {
+	color: #00bef1;;
+} 
 
 .active {
 	border: 2px black solid;
@@ -43,7 +50,7 @@ ul li a {
 	height: 55px;
 	width: 82px;
 	position: absolute;
-	padding-top: 7px;
+	padding-top: 4px;
 	background-color: white;
 }
 
@@ -56,3 +63,42 @@ ul li a {
 } */ 
 
 /* IMPORTANT This could be needed when window is resized and contact goes down but first look at Meta phase thing */  
+
+#miner {
+	margin-top: 50px;
+	width: 200px;
+	margin-left: 7%;
+}
+
+#hook {
+	width: 800px;
+	position: absolute;
+	font-size: 22px;
+	margin-left: 32%;
+	bottom: 400px;
+	line-height: 40px;
+	text-align: center;
+
+}
+
+
+#Re {
+	margin-top: 30px;
+	position: absolute;
+	left: 490px;
+	font-size: 60px;
+}
+
+#RF-secondLogo {
+	margin-top: 10px;
+	position: absolute;
+	left: 610px;
+	width: 150px;
+}
+
+#Fresh {
+	margin-top: 30px;
+	position: absolute;
+	left: 770px;
+	font-size: 60px;
+}
