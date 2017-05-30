@@ -58,16 +58,12 @@ ul li a:hover {
 	padding-left: 180px;
 }
 
-/* #header-contact-us {
-	position: absolute;
-} */ 
-
-/* IMPORTANT This could be needed when window is resized and contact goes down but first look at Meta phase thing */  
+/* hook */
 
 #miner {
 	margin-top: 50px;
 	width: 200px;
-	margin-left: 7%;
+	margin-left: 9%;
 }
 
 #hook {
@@ -81,24 +77,48 @@ ul li a:hover {
 
 }
 
+/* name */
+
+/* #Re {
+	margin-top: 20px;
+	position: absolute;
+	left: 515px;
+	font-size: 55px;
+	color: #2443CA;
+} */
 
 #Re {
-	margin-top: 30px;
 	position: absolute;
-	left: 490px;
-	font-size: 60px;
+	top: 325px;
+	left: 507px;
 }
+
+
 
 #RF-secondLogo {
 	margin-top: 10px;
 	position: absolute;
-	left: 610px;
-	width: 150px;
+	left: 622.5px;
+	width: 120px;
 }
 
-#Fresh {
-	margin-top: 30px;
+/* #Fresh {
+	margin-top: 20px;
 	position: absolute;
-	left: 770px;
-	font-size: 60px;
+	left: 745px;
+	font-size: 55px;
+	color: #2443CA;
+} */
+
+#Fresh {
+	position: absolute;
+	top: 325px;
+	left: 740px;
+}
+
+#eSports {
+	position: absolute;
+	top: 400px;
+	left: 552px;
+	width: 230px;
 }
