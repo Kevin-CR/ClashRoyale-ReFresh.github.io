@@ -54,6 +54,16 @@ ul li a:hover {
 	background-color: white;
 }
 
+#RF-logo {
+	-webkit-transition: all 1.2s ease-out;
+	-moz-transition: all 1.2s ease-out;
+	transition: all 1.2s ease-out;
+}
+
+#RF-logo:hover {
+	transform: rotateY(720deg);
+}
+
 #header-family {
 	padding-left: 180px;
 }
@@ -64,6 +74,11 @@ ul li a:hover {
 	margin-top: 50px;
 	width: 200px;
 	margin-left: 9%;
+	transition: 0.65s;
+}
+
+#miner:hover {
+	transform: scale(1.28);
 }
 
 #hook {
@@ -74,18 +89,10 @@ ul li a:hover {
 	bottom: 400px;
 	line-height: 40px;
 	text-align: center;
-
+	-webkit-animation-duration: 1.2s;
+	-moz-animation-duration: 1.2s;
+	animation-duration: 1.2s;
 }
-
-/* name */
-
-/* #Re {
-	margin-top: 20px;
-	position: absolute;
-	left: 515px;
-	font-size: 55px;
-	color: #2443CA;
-} */
 
 #Re {
 	position: absolute;
@@ -93,22 +100,25 @@ ul li a:hover {
 	left: 507px;
 }
 
+.grow {
+	transition: 0.65s;
+}
 
+.grow:hover {
+	transform: scale(1.28)
+}
+
+.jad {
+	background-color: black;
+}
 
 #RF-secondLogo {
-	margin-top: 10px;
 	position: absolute;
 	left: 622.5px;
+	top: 307px;
 	width: 120px;
 }
 
-/* #Fresh {
-	margin-top: 20px;
-	position: absolute;
-	left: 745px;
-	font-size: 55px;
-	color: #2443CA;
-} */
 
 #Fresh {
 	position: absolute;
@@ -116,9 +126,21 @@ ul li a:hover {
 	left: 740px;
 }
 
-#eSports {
+/* #eSports {
 	position: absolute;
 	top: 400px;
 	left: 552px;
 	width: 230px;
+} */
+
+.clanName {
+	position: absolute;
+	left: 500px;
+	top: 400px;
+	font-size: 20px;
+	display: none;
+}
+
+.clan-name-display {
+	display: block;
 }

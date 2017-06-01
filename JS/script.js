@@ -4,9 +4,27 @@ $(document).ready(function(){
 
 	$('li a').click(function(){
 
-		$('li a').removeClass("active")
+		$('li a').removeClass("active");
 		$(this).addClass("active");
 
-	})
-})
+	});
+	
+	$('#Re').click(function(){
+
+		$(".clanName").toggleClass("clan-name-display");
+
+	});
+
+	$('#RF-secondLogo').click(function(){
+
+		$(".clanName").toggleClass("clan-name-display");
+
+	});
+
+	$('#Fresh').click(function(){
+
+		$(".clanName").toggleClass("clan-name-display");
+
+	});
+});
 
