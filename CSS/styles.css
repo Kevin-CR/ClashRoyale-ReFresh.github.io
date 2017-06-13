@@ -5,7 +5,13 @@
 	color: #101031;
 }
 
-/* Header Stuff */
+/* ===========
+Header Stuff 
+============ */
+
+header {
+	z-index: 7;
+}
 
 .heading-ul {
 	margin: 0;
@@ -23,12 +29,17 @@
 	font-family: 'Raleway', sans-serif;
 }
 
-ul li a {
+.heading-ul li a {
 	padding: 5px 11px;
 	text-decoration: none;
 	color: #101430;
 	background-color: white;
 	transition: 0.77s;
+}
+
+.fixed {
+	position: fixed;
+	top: 0;
 }
 
 ul li a:hover {
@@ -151,13 +162,17 @@ Welcome Animation
 	transform: rotateY(720deg);
 }
 
-/* hook */
+/* ============
+Hook and Miner 
+============= */
 
 #miner {
 	margin-top: 30px;
 	width: 200px;
 	margin-left: 9%;
 	transition: 0.65s;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
 }
 
 #miner:hover {
@@ -173,9 +188,18 @@ Welcome Animation
 	bottom: 400px;
 	line-height: 40px;
 	text-align: center;
-	-webkit-animation-duration: 1.2s;
-	-moz-animation-duration: 1.2s;
-	animation-duration: 1.2s;
+/* 	-webkit-animation-duration: 1.2s;
+-moz-animation-duration: 1.2s;
+animation-duration: 1.2s; */
+	-webkit-transition: all 1.6s ease-out;
+	-moz-transition: all 1.6s ease-out;
+	transition: all 1.6s ease-out;
+	-webkit-animation-duration: 3s;
+    -webkit-animation-delay: 5s;
+    -webkit-animation-iteration-count: 1;
+   	-moz-animation-duration: 3s;
+    -moz-animation-delay: 5s;
+    -moz-animation-iteration-count: 1;
 }
 
 #Re {
@@ -190,10 +214,6 @@ Welcome Animation
 
 .grow:hover {
 	transform: scale(1.28)
-}
-
-.jad {
-	background-color: black;
 }
 
 #RF-secondLogo {
@@ -231,12 +251,14 @@ Welcome Animation
 	text-align: center;
 }
 
-/* Why join us */
+/* =========
+Why join us
+========== */
 
 #first-dbl-line {
 	position: absolute;
 	top: 1160px;
-	left: 130px;
+	left: 125px;
 	height: 4.5px;
 	width: 370px;
 	border-top: solid 2px #B8B6C9;
@@ -245,21 +267,25 @@ Welcome Animation
 
 #why-join-us {
 	position: absolute;
-	top: 1140px;
-	left: 560px;
-	font-size: 40px;
+	top: 1138px;
+	left: 540px;
+	font-size: 45px;
 	font-family: 'Fira Sans', sans-serif;
 }
 
 #second-dbl-line {
 	position: absolute;
 	top: 1160px;
-	left: 850px;
+	left: 845px;
 	height: 4.5px;
 	width: 370px;
 	border-top: solid 2px #B8B6C9;
 	border-bottom: solid 2px #B8B6C9;
 }
+
+/* =======================
+Why join us - Text Slider
+======================== */
 
 #content {
 	background-color: #B4B4B4;
@@ -269,7 +295,7 @@ Welcome Animation
 }
 
 #stuff {
-	margin-top: 400px;
+	margin-top: 440px;
 }
 
 #content {
@@ -346,3 +372,285 @@ Welcome Animation
 .item-number:nth-child(3) {
 	left: 865px;
 }
+
+/* =======
+About Us
+======== */
+
+#about-us-first-dbl-line {
+	position: absolute;
+	top: 1970px;
+	left: 125px;
+	height: 4.5px;
+	width: 370px;
+	border-top: solid 2px #B8B6C9;
+	border-bottom: solid 2px #B8B6C9;
+}
+
+#about-us {
+	position: absolute;
+	top: 1948px;
+	left: 571px;
+	font-size: 45px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+#about-us-second-dbl-line {
+	position: absolute;
+	top: 1970px;
+	left: 845px;
+	height: 4.5px;
+	width: 370px;
+	border-top: solid 2px #B8B6C9;
+	border-bottom: solid 2px #B8B6C9;
+}
+
+#about-us-info {
+	font-family: 'Rubik', sans-serif;	
+	line-height: 26px;
+	text-align: justify;
+	font-size: 17px;
+	margin-top: 285px;
+	width: 75%;
+	margin-left: 1.5%; 
+} 
+
+#about-us-img {
+	position: absolute;
+	right: 32px;
+	top: 2055px;
+	border-radius: 10px;
+	transition: 0.65s;
+}
+
+#about-us-img:hover {
+	transform: scale(1.24);
+}
+
+/* ====
+Family
+===== */
+
+#family-first-dbl-line {
+	position: absolute;
+	top: 2375px;
+	left: 125px;
+	height: 4.5px;
+	width: 370px;
+	border-top: solid 2px #B8B6C9;
+	border-bottom: solid 2px #B8B6C9;
+}
+
+#family {
+	position: absolute;
+	top: 2353px;
+	left: 603px;
+	font-size: 45px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+#family-second-dbl-line {
+	position: absolute;
+	top: 2375px;
+	left: 845px;
+	height: 4.5px;
+	width: 370px;
+	border-top: solid 2px #B8B6C9;
+	border-bottom: solid 2px #B8B6C9;
+}
+
+#family-info {
+	font-family: 'Rubik', sans-serif;	
+	line-height: 26px;
+	text-align: justify;
+	font-size: 17px;
+	margin-top: 145px;
+	width: 75%;
+	margin-left: 1.5%; 
+}
+
+#family-img {
+	position: absolute;
+	right: 32px;
+	top: 2465px;
+	border-radius: 10px;
+	transition: 0.65s;
+}
+
+#family-img:hover {
+	transform: scale(1.24);
+}
+
+/* =======
+Contact Us
+======== */
+
+#contact-us-first-dbl-line {
+	position: absolute;
+	top: 2775px;
+	left: 125px;
+	height: 4.5px;
+	width: 370px;
+	border-top: solid 2px #B8B6C9;
+	border-bottom: solid 2px #B8B6C9;
+}
+
+#contact-us {
+	position: absolute;
+	top: 2753px;
+	left: 550px;
+	font-size: 45px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+#contact-us-second-dbl-line {
+	position: absolute;
+	top: 2775px;
+	left: 845px;
+	height: 4.5px;
+	width: 370px;
+	border-top: solid 2px #B8B6C9;
+	border-bottom: solid 2px #B8B6C9;
+}
+
+#contact-us-info {
+	font-family: 'Rubik', sans-serif;	
+	line-height: 26px;
+	text-align: justify;
+	font-size: 17px;
+	margin: 0 1.5%; 
+	margin-top: 145px;
+}
+
+/* ===
+Icons
+==== */
+
+#icons {
+	display: flex;
+	position: absolute;
+	top: 3000px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#icons li {
+	list-style: none;
+}
+
+#icons li a {
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	text-align: center;
+	line-height: 80px;
+	font-size: 35px;
+	margin: 0 100px;
+	display: block;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+	border: 1px solid #D4D4D4; 
+}
+
+#icons li a .fa {
+	position: absolute;
+	top: 20px;
+	color: #262626;
+	background: transparent;
+	transition: all .5s;
+	z-index: 3;
+}
+
+#icons li a .fa:hover {
+	color: white;
+}
+
+#g-icon {
+	left: 20px;
+}
+
+#insta-icon {
+	left: 26px;
+}
+
+#twitter-icon {
+	left: 26px;
+}
+
+#fb-icon {
+	left: 31px;
+}
+
+
+#icons li a:hover .fa {
+	transform: rotateY(360deg);
+}
+
+#icons li a:before {
+	content: '';
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #f00;
+	transition: .5s;
+	z-index: 1;
+}
+
+#icons li a:hover:before {
+	top: 0;
+}
+
+#icons li:nth-child(1) a:before {
+	background: #dd4b39;
+}
+
+#icons li:nth-child(2) a:before {
+	background: #e4405f;
+}
+
+#icons li:nth-child(3) a:before {
+	background: #55acee;
+}
+
+#icons li:nth-child(4) a:before {
+	background: #3b5999;
+}
+
+/* ===
+Footer
+==== */
+
+footer {
+	width: 100%;
+	height: 100px;
+	position: absolute;
+	top: 3100px;
+	background: -moz-linear-gradient(top, #ccc, #000); 
+	background: -webkit-gradient(linear, left top, left bottom, from(#CCC7D3), to(#313131)); 
+}
+
+#footer-text {
+	color: #fff;
+	background-color: transparent;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#up-arrow {
+	width: 40px;
+	position: absolute;
+	top: 3050px;
+	left: 95%;
+}
+
+
+
+
+
+
+
+

@@ -29,7 +29,26 @@ $(document).ready(function(){
 
 	});
 
-})
+});
+
+
+
+$(document).ready(function(){
+
+	$(window).scroll(function(){
+		var scrollPos = $(window).scrollTop();
+
+		if(scrollPos >= 0) {
+			$("header").addClass('fixed');
+		} else {
+			$("header").removeClass('fixed');
+		}
+	})	
+
+});
+
+
+
 
 $(document).ready(function(){
 
@@ -96,6 +115,8 @@ $(document).ready(function(){
   		}, 500);
 
   	})
+
+
 
 
 
